@@ -155,8 +155,14 @@ a.boxlink:hover, a.boxlink:active {
 a.langlink:link, a.langlink:visited {
   opacity: 0.5;
 }
-
-a.langlink:hover, a.langlink:active {
+a.langlink:hover {
+opacity: 1;
+}
+a.langlink:hover > img{
+box-shadow: 0 0 6px rgba(35, 173, 278, 1);
+opacity: 1;
+}
+a.langlink:active > img{
 box-shadow: 0 0 6px rgba(35, 173, 278, 1);
 opacity: 1;
 }
@@ -723,18 +729,18 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
 <a href="https://battlerealms.fandom.com/wiki/Battle_Realms%3A_Winter_of_the_Wolf"><img src="https://i.imgur.com/sD1vJmJ.png" style="margin-bottom:0.1rem;width:50%;height:50%"></a>
 <br><b>Версия: 1.50q (Последняя)</b><br><br>
 
-<img src="https://sun9-49.userapi.com/c856032/v856032670/10b8ee/xLS8O5Pf1pU.jpg" style="margin-top:0.01rem;width:32px;height:22px" title="Выбранный язык: Русский"/>
+<img src="https://sun9-49.userapi.com/c856032/v856032670/10b8ee/xLS8O5Pf1pU.jpg" style="margin-right:4px;width:32px;height:22px" title="Выбранный язык: Русский"/>
 </a>
 
-<a href="https://vk.com/battlerealmsclub" class="langlink">
-<img src="https://i.imgur.com/KGBqfCi.jpg" style="width:32px;height:22px" title="Переключиться на Английский"/>
+<a href="https://battlerealms.github.io/chart/" class="langlink">
+<img src="https://i.imgur.com/KGBqfCi.jpg"  title="Переключиться на Английский"/>
 </a>
 
 <br>
    <div class="wrap-collabsible" style="padding-top:0.6rem;padding-bottom:1.5rem;font-size:12pt;colspan=12">
   <input id="collapsible00" class="toggle" type="checkbox">
   <label for="collapsible00" class="lbl-toggle" tabindex="0"><strong>
-Последнее обновление: 14 Октября,2019 (Русский перевод)
+Последнее обновление: 21 Октября, 2019 (Русский перевод)
 </strong>
 </label>
     <div class="collapsible-content">
@@ -755,9 +761,11 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
    <td class="xl261547" style="font-size:12pt;text-align:center;" colspan="12"><br>
 <a href="https://vk.com/battlerealmsclub" class="boxlink">Группа Вконтакте</a>
 
+<a href="https://www.gog.com/game/battle_realms_winter_of_the_wolf" class="boxlink">Приобрести игру на GOG</a>
+
 <a href="https://discord.gg/6knxkVe" class="boxlink">Дискорд Сервер Сообщества (Англ.)</a>
 
-<a href="https://www.reddit.com/r/BattleRealms" class="boxlink">Battle Realms Reddit (англ.)</a><br><br>
+<a href="https://www.reddit.com/r/BattleRealms" class="boxlink">Battle Realms Reddit (Англ.)</a><br><br>
 </td>
 </tr>
 <tr>
@@ -781,7 +789,7 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
 <b>Врождённые умения</b><br><br> Особые черты разных юнитов, которые являются пассивными или активируются при определённых обстоятельствах.<br><br>
 <b>Обработка Приказов</b><br><br>
 
-Обработка приказов это то, чем игра называет понимание, послушание и усвоение приказов и настроек поведения (Пассивность, Удерживание Позиции и.т.д.), которые вы даёте своим юнитам. Некоторые способности отключают этот процесс в зависимости от их эффектов. Обычно это временно, но когда такой эффект проходит, вам нужно снова отдать своим юнитам приказы, иначе они будут делать то, что им вздумается (например убегать к врагу в поисках своей смерти).<br><br>
+Обработка приказов это то, чем игра называет понимание, послушание и усвоение приказов и настроек поведения (Пассивность, Удерживание Позиции и.т.д.), которые вы даёте своим юнитам. Некоторые способности отключают этот процесс в зависимости от их эффектов (Принудительная Остановка). Обычно это временно, но когда такой эффект проходит, вам нужно снова отдать своим юнитам приказы, иначе они будут делать то, что им вздумается (например убегать к врагу в поисках своей смерти).<br><br>
 <b>AoE = Урон по площади.</b>  <br> <br>
 <u><b>SP = Данный юнит появляется только в кампании.</u></b>
     </div>
@@ -1072,7 +1080,7 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
 </td>
     <td class="xl271547_D">
     <input id="collapsible_pk4" class="toggle" type="checkbox">
-<label for="collapsible_pk4" class="lbl-toggle" tabindex="0"><b>Герметичные Бочки</b></label><div class="collapsible-content"><div class="content-inner"><p><b>НЕ РАБОТАЕТ</b>- Добавляет 1,1 колющего урона к атакам Бомбардира.</p></div></div>
+<label for="collapsible_pk4" class="lbl-toggle" tabindex="0"><b>Герметичные Бочки</b></label><div class="collapsible-content"><div class="content-inner"><p><b>НЕ РАБОТАЕТ</b>- На данный момент добавляет 1,1 колющего урона к атакам Бомбардира.</p></div></div>
     <input id="collapsible_pk5" class="toggle" type="checkbox">
 <label for="collapsible_pk5" class="lbl-toggle" tabindex="0"><b>Гимнастика</b></label><div class="collapsible-content"><div class="content-inner"><p>Увеличивает максимальное здоровье Бомбардира на 30%.</p></div></div>
 </td>
@@ -1174,6 +1182,8 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
     <td class="xl271547_D">
     <input id="collapsible_bm" class="toggle" type="checkbox">
 <label for="collapsible_bm" class="lbl-toggle" tabindex="0"><b>Передача Силы</b></label><div class="collapsible-content"><div class="content-inner"><p>Союзники наносят на +50% больше урона (Анти-Башня/AoE).</p></div></div>
+    <input id="collapsible_bm5" class="toggle" type="checkbox">
+<label for="collapsible_bm5" class="lbl-toggle" tabindex="0"><b>Двойное Изображение</b></label><div class="collapsible-content"><div class="content-inner"><p>Дева разбивается на 2 сущности, которые имеют на 25% меньше здоровья (без восстановления здоровья и энергии) и наносят на 50% меньше урона, они также не могут седлать лошадей. Если одно изображение погибает, то другое становится полноценной Девой.</p></div></div>
 </td>
     <td class="xl271547_D" rowspan="3">
 <input id="collapsible_bm2" class="toggle" type="checkbox">
@@ -1203,6 +1213,8 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
     <td class="xl271547_D">N/A</td>
     <td class="xl271547_D"><input id="collapsible_guard" class="toggle" type="checkbox">
 <label for="collapsible_guard" class="lbl-toggle" tabindex="0"><b>Сотрясающий Удар</b></label><div class="collapsible-content"><div class="content-inner"><p>(Взрывной/AoE)</p></div></div>
+<input id="collapsible_guard2" class="toggle" type="checkbox">
+<label for="collapsible_guard2" class="lbl-toggle" tabindex="0"><b>Последний Бой</b></label><div class="collapsible-content"><div class="content-inner"><p>Когда здоровье Стражника доходит до нуля, он временно становится неуязвимым, но не может бегать. Затем Стражник погибает.</p></div></div>
 </td>
     <td class="xl271547" style="color:#000000;background:#FFD700"><font size="3">125%</td>
     <td class="xl271547" style="color:#000000;background:#C0C0C0"><font size="3">100%</td>
@@ -1343,7 +1355,7 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
 </tr>
 <tr>
    <tr class="xl161547"> 
-   <td class="xl271547_D" style="color:#cc8400;box-shadow: 0 0 4px #4c3100, 0 0 2px #cc8400;font-size:12pt;text-shadow: 0 0 4px #4c3100"><b>Сторожевая Вышка Дракона</b></td>
+   <td class="xl271547_D" style="color:#cc8400;box-shadow: 0 0 4px #4c3100, 0 0 2px #cc8400;font-size:12pt;text-shadow: 0 0 4px #4c3100"><b>Сторожевая Башня Дракона</b></td>
    <td class="xl271547_D" colspan="12" style="font-size:12pt;color:white">Оглушает всех врагов под башней на 6 секунд.</b><br></td>
 </tr>
 <tr>
@@ -1647,6 +1659,10 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
 <input id="collapsible_Бандит" class="toggle" type="checkbox">
 <label for="collapsible_Бандит" class="lbl-toggleS" tabindex="0">
 <b>Парализующие Дротики</b></label><div class="collapsible-content"><div class="content-inner"><p>Парализует врага на 7 секунд.</p></div></div>
+<input id="collapsible_Бандит5" class="toggle" type="checkbox">
+<label for="collapsible_Бандит5" class="lbl-toggleS" tabindex="0">
+<b>Невидимость</b></label><div class="collapsible-content"><div class="content-inner"><p>
+Бандит может становиться невидимым. Пока он невидим, вражеские юниты не будут атаковать.</p></div></div>
 </td>
     <td class="xl271547_S">
 <input id="collapsible_Бандит2" class="toggle" type="checkbox">
@@ -1678,7 +1694,7 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
     <td class="xl271547_S">
 <input id="collapsible_Ронин" class="toggle" type="checkbox">
 <label for="collapsible_Ронин" class="lbl-toggleS" tabindex="0">
-<b>Клинки Инь</b></label><div class="collapsible-content"><div class="content-inner"><p>Меняет тип урона от мечей Ронина на <em>мгический</em> и увеличивает генерацию Инь от его атак, продолжительно расходует энергию.</p></div></div>
+<b>Клинки Инь</b></label><div class="collapsible-content"><div class="content-inner"><p>Меняет тип урона от мечей Ронина на <em>магический</em> и увеличивает генерацию Инь от его атак, продолжительно расходует энергию.</p></div></div>
 <input id="collapsible_Ронин2" class="toggle" type="checkbox">
 <label for="collapsible_Ронин2" class="lbl-toggleS" tabindex="0">
 <b>Кровные Узы</b></label><div class="collapsible-content"><div class="content-inner"><p>Ронин получает на 50% меньше урона от входящих атак, тогда как связанный узами союзник получает 75% от входящего Ронина урона.</p></div></div>
@@ -1735,7 +1751,10 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
     <td class="xl271547_S">
 <input id="collapsible_sw" class="toggle" type="checkbox">
 <label for="collapsible_sw" class="lbl-toggleS" tabindex="0">
-<b>Летающий</b></label><div class="collapsible-content"><div class="content-inner"><p>Призрачный Воин всегда имеет преимущество высоты.</p></div></div>
+<b>Парение</b></label><div class="collapsible-content"><div class="content-inner"><p>Призрачный Воин всегда имеет преимущество высоты.</p></div></div>
+<input id="collapsible_sw2" class="toggle" type="checkbox">
+<label for="collapsible_sw2" class="lbl-toggleS" tabindex="0">
+<b>Нежить</b></label><div class="collapsible-content"><div class="content-inner"><p>Призрачный Воин не восстанавливает здоровье.</p></div></div>
 </td>
     <td class="xl271547" style="color:#000000;background:#C0C0C0"><font size="3">100%</td>
     <td class="xl271547" style="color:#000000;background:#7fbfff"><font size="3">50%</td>
@@ -1754,7 +1773,7 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
     <td class="xl271547_S">
 <input id="collapsible_Зомби" class="toggle" type="checkbox">
 <label for="collapsible_Зомби" class="lbl-toggleS" tabindex="0">
-<b>Разложение</b></label><div class="collapsible-content"><div class="content-inner"><p>Зомби быстро разлагается, постоянно теряя своё.</p></div></div>
+<b>Разложение</b></label><div class="collapsible-content"><div class="content-inner"><p>Зомби быстро разлагается, постоянно теряя здоровье.</p></div></div>
 </td>
     <td class="xl271547" style="color:#000000;background:#C0C0C0"><font size="3">100%</td>
     <td class="xl271547" style="color:#000000;background:#7fbfff"><font size="3">50%</td>
@@ -1775,6 +1794,9 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
 <input id="collapsible_Принудитель" class="toggle" type="checkbox">
 <label for="collapsible_Принудитель" class="lbl-toggleS" tabindex="0">
 <b>Подлый Удар</b></label><div class="collapsible-content"><div class="content-inner"><p>Уменьшает скорость врага на 30%.</p></div></div>
+<input id="collapsible_Принудитель4" class="toggle" type="checkbox">
+<label for="collapsible_Принудитель4" class="lbl-toggleS" tabindex="0">
+<b>Шипованные Ботинки</b></label><div class="collapsible-content"><div class="content-inner"><p>Увеличивает скорость передвижения Принудителя в два раза.</p></div></div>
 </td>
     <td class="xl271547_S" rowspan="3">
 <input id="collapsible_Принудитель2" class="toggle" type="checkbox">
@@ -1799,7 +1821,7 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
     <td class="xl271547_S">Взрывной</td>
     <td class="xl271547_S">
 <input id="collapsible_Ведьма" class="toggle" type="checkbox">
-<label for="collapsible_Ведьма" class="lbl-toggleS" tabindex="0"><b>Вампирический Взгляд</b></label><div class="collapsible-content"><div class="content-inner"><p>Ближайшие союзники каждую секунду восстанаваливают 10% от своего общего здоровья (Anti-Башня/AoE).</p></div></div>
+<label for="collapsible_Ведьма" class="lbl-toggleS" tabindex="0"><b>Вампирический Взгляд</b></label><div class="collapsible-content"><div class="content-inner"><p>Ближайшие союзники каждую секунду восстанаваливают 10% от своего общего здоровья (АнтиБашня/AoE).</p></div></div>
 </td>
     <td class="xl271547_S">
 <input id="collapsible_Ведьма2" class="toggle" type="checkbox">
@@ -2460,7 +2482,7 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
     <td class="xl271547_W">N/A</td>
     <td class="xl271547_W">
 <input id="collapsible_spwolf" class="toggle" type="checkbox">
-<label for="collapsible_spwolf" class="lbl-toggleW" tabindex="0"><b>Дар Предков</b></label><div class="collapsible-content"><div class="content-inner"><p>Скорость восстановления здоровья Призрачного Волкаs увеличена. Призрачный Волк также может обнаружить скрытых врагов.</p></div></div>
+<label for="collapsible_spwolf" class="lbl-toggleW" tabindex="0"><b>Дар Предков</b></label><div class="collapsible-content"><div class="content-inner"><p>Скорость восстановления здоровья Призрачного Волкаs увеличена. Призрачный Волк также увеличиваеть генерацию очков Ян при атаке.</p></div></div>
 </td>
     <td class="xl271547_W">
 <input id="collapsible_spwolf2" class="toggle" type="checkbox">
@@ -3023,7 +3045,7 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
             <td class="xl271547_L">N/A</td>
                 <td class="xl271547_L">
 <input id="collapsible_Голем" class="toggle" type="checkbox">
-<label for="collapsible_Голем" class="lbl-toggleL" tabindex="0"><b>Взрывной</b></label><div class="collapsible-content"><div class="content-inner"><p>Голем взорвётся, если на него нападут, нанося взрывной урон по площади.</p></div></div>
+<label for="collapsible_Голем" class="lbl-toggleL" tabindex="0"><b>Взрывоопасный</b></label><div class="collapsible-content"><div class="content-inner"><p>Голем взорвётся, если на него нападут, нанося взрывной урон по площади.</p></div></div>
 </td>
                 <td class="xl271547_L">N/A</td>
     <td class="xl271547" style="color:#000000;background:#C0C0C0"><font size="3">100%</td>
@@ -3063,7 +3085,7 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
   <tr class="xl151547"> 
     <td class="xl271547_N"><a href="https://battlerealms.fandom.com/wiki/Wolf" class="nunitui">
     <img src="https://i.imgur.com/oTc2gqz.jpg">
-    <div class="nunitext">дикий Волк</div></a>
+    <div class="nunitext">Дикий Волк</div></a>
     </td>
     <td class="xl271547_N">Колющий</td>
     <td class="xl271547_N">N/A</td>
@@ -3189,7 +3211,7 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
    <tr class="xl161547"> 
     <td class="xl271547_N"><a href="https://battlerealms.fandom.com/wiki/Kenji" class="nheroui">
     <img src="https://i.imgur.com/VdXEvVp.jpg">
-    <div class="nunitext">Кендзи (Змей Attire-SP)</div></a>
+    <div class="nunitext">Кендзи (Змей-SP)</div></a>
     </td>
     <td class="xl271547" style="color:#000000;background:#C0C0C0"><font size="3">75%</td>
     <td class="xl271547" style="color:#000000;background:#7fbfff"><font size="3">50%</td>
@@ -3299,7 +3321,7 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
   </tr>
   <tr>
     <tr class="xl161547"> 
-    <td class="xl271547_N"><a href="https://battlerealms.fandom.com/wiki/Длинный Клык" class="nheroui">
+    <td class="xl271547_N"><a href="https://battlerealms.fandom.com/wiki/Longtooth" class="nheroui">
     <img src="https://i.imgur.com/6NQjQwN.jpg">
     <div class="nunitext">Длинный Клык (Раб-SP)</div></a>
     </td>
@@ -3320,7 +3342,7 @@ cursor: url(https://i.imgur.com/ZbVhsno.png), auto;
   </tr>
     <tr>
     <tr class="xl161547"> 
-    <td class="xl271547_N"><a href="https://battlerealms.fandom.com/wiki/Ивейн" class="nherouiZ">
+    <td class="xl271547_N"><a href="https://battlerealms.fandom.com/wiki/Yvaine" class="nherouiZ">
     <img src="https://i.imgur.com/jdu8Yz3.jpg">
     <div class="nunitext">Ивейн (Безбожная Мощь-SP)</div></a>
     </td>
